@@ -10,11 +10,11 @@ JSON, XLM et YAML sont des langages de sérialisation de données :
 
 ## 1 JSON (JavaScript Objet Notation) 
 
-#### 1)C'est quoi Json? 
+#### 1) Définition Json? 
 
  JSON est un format de données semblable à la syntaxe des objets JavaScript, qui a été popularisé par Douglas Crockford. Malgré sa syntaxe très similaire à celle des objets littéraux JavaScript, JSON peut être utilisé indépendamment de ce langage et ainsi, de nombreux autres langages de programmation disposent de fonctionnalités permettant d'analyser la syntaxe du JSON et d'en générer. 
 
-#### 2) Pourquoi  JSON?
+#### 2) Pourquoi utiliser JSON?
 
  Il est habituellement utilisé pour structurer et transmettre des données sur des sites web (par exemple, envoyer des données depuis un serveur vers un client afin de les afficher sur une page web ou vice versa) Il sert à envoyer des informations, depuis un serveur vers un utilisateur, afin de les afficher sur une page web, ou inversement. Ces caractéristiques en font un langage d’échange de données idéal et universel.
 
@@ -71,15 +71,22 @@ Le but principal de ce langage est le partage de données entre différents syst
     ```
 - Tous les éléments XML doivent être des balises appariées.
 
-3. YAML (Yet Another Markup Language)
-1) Définition
-YAML est un langage de programmation fréquemment utilisé, car il est conçu pour être parfaitement lisible et compréhensible. Il peut également être utilisé en association avec d’autres langages de programmation.
+## YAML
+#### Définition YAML?
+ Pour certains, YAML est l'acronyme de Yet Another Markup Language, pour d'autres, c'est l'acronyme récursif de YAML Ain't Markup Language (YAML n'est pas un langage de balisage), ce qui souligne que le langage YAML s'utilise pour représenter des données plutôt que des documents.
+ 
+ #### Pourquoi YAML?
+Le langage YAML est principalement utilisé pour créer des fichiers de configuration. Il est recommandé de coder les fichiers de configuration en YAML plutôt qu'en JSON, car même si ces langages peuvent être utilisés de manière interchangeable dans la plupart des cas, YAML reste plus facile à lire et à utiliser
 
-2) Type de données
-YAML prend en charge les types de données suivants :
+ 
+ #### Syntaxe
+ YAML comporte des fonctions issues de Perl, C, XML, HTML et d'autres langages de programmation. 
+Les symboles de formatage habituels, tels que les accolades, les crochets, les balises d'ouverture et de fermeture ou les guillemets, n'existent pas. Les fichiers YAML sont plus faciles à lire,  Les caractères de tabulation ne sont pas autorisés par défaut pour assurer la portabilité sur différents systèmes, alors il faut utiliser des espaces blancs à la place.
 
 - objet : une collection de paires key-value.
 
 - tableaux : un ensemble de valeurs ordonnées séquentiellement
 
 - scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
+
+
