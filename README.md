@@ -70,8 +70,8 @@ YAML est un langage de programmation fréquemment utilisé, car il est conçu po
 2) Type de données
 YAML prend en charge les types de données suivants :
 
-objet : une collection de paires key-value.
+- objet : une collection de paires key-value.
 
-tableaux : un ensemble de valeurs ordonnées séquentiellement
+- tableaux : un ensemble de valeurs ordonnées séquentiellement
 
-scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
+- scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
