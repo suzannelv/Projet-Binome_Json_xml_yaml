@@ -23,7 +23,7 @@ JSON, XLM et YAML sont des langages de sérialisation de données :
 - JSON peut être combiné avec d'autres languages C++, Java, Python
 - Les documents JSON sont relativement légers   
 - Il est très facile d'usage - pas d'algorythlme. Un objet JSON est uniquement un format de données — il ne contient que des propriétés mais pas de méthodes.
--Attention à la securité tout de même car les fichiers json s'executent automatiquement sur toute page web solicitée par un navigateur - attaque par insertion dans le code javascript
+- Attention à la securité tout de même car les fichiers json s'executent automatiquement sur toute page web solicitée par un navigateur.
 
 #### 4) Syntaxe:
 
@@ -63,7 +63,7 @@ Le but principal de ce langage est le partage de données entre différents syst
  --> En résumé,il s'agit de standardiser le format des données pour qu'elles soient structurées, faciles à lire et à manipuler.
 
 #### 3) Règle de syntaxe
-- XML a une structure fixe, la première ligne doit être **<?xml version="1.0" encoding="UTF-8" ?>**, avec un encodage optionnel. 
+- XML a une structure fixe, la première ligne doit être <?xml version="1.0" encoding="UTF-8" ?>, avec un encodage optionnel. 
 - Un document XML a  **un seul élément racine**, l'élément racine peut contenir n'importe quel nombre d'éléments enfants. Dans les éléments de balises, ils peuvent contenir des attributs, par exemple:
     ```
        <root lang="fr">Hello Git</root> 
