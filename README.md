@@ -128,4 +128,5 @@ devices:
      type: hardware
 ```
 
-
+## Conclusion
+En résumé, XML, JSON et YAML sont des formats de données différents, avec des syntaxes distinctes et des utilisations spécifiques, mais ils partagent tous l'objectif de représenter et d'échanger des données structurées. Le choix du format dépendra des besoins spécifiques de votre projet et des outils ou des technologies que vous utilisez.
