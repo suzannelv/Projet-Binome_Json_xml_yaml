@@ -1,4 +1,11 @@
-# Json vs. xml vs. yaml
+## JSON, XLM et YAML sont des langages de sérialisation de données :
+   > "Chaque fois que vous souhaitez envoyer une structure de données ou un objet sur des réseaux informatiques, par exemple Internet, vous devez le transformer en un format spécial pour le lire et le stocker. Le processus est généralement connu sous le nom de sérialisation et est d'une importance énorme sur le Web. Un exemple d'utilisation courant de sérialisation est la lecture de données à partir de bases de données et leur transfert sur le Web."
+
+- XML prend en charge les types de données complexes tels que les graphiques, les images et d'autres types de données non primitifs. 
+- JSON ne prend en charge que les chaînes de caractère (string) , les nombres, les tableaux, les booléens et les objets. 
+-YAML, d'autre part, prend en charge les types de données complexes tels que les timesstamps, les séquences, les valeurs imbriquées et récursives et les types de données primitifs.
+
+
 
 ## 1 JSON (JavaScript Objet Notation) 
 
