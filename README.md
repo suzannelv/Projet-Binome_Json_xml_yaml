@@ -1,5 +1,4 @@
-# Projet-Binome_Json_xml_yaml
-# Projet-Binome_Json_xml_yaml
+# Json vs. xml vs. yaml
 
 ## 1 JSON (JavaScript Objet Notation) 
 
@@ -63,3 +62,16 @@ Le but principal de ce langage est le partage de données entre différents syst
        <root lang="fr">Hello Git</root> 
     ```
 - Tous les éléments XML doivent être des balises appariées.
+
+3. YAML (Yet Another Markup Language)
+1) Définition
+YAML est un langage de programmation fréquemment utilisé, car il est conçu pour être parfaitement lisible et compréhensible. Il peut également être utilisé en association avec d’autres langages de programmation.
+
+2) Type de données
+YAML prend en charge les types de données suivants :
+
+objet : une collection de paires key-value.
+
+tableaux : un ensemble de valeurs ordonnées séquentiellement
+
+scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
