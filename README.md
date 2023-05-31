@@ -71,11 +71,10 @@ Le but principal de ce langage est le partage de données entre différents syst
     ```
 - Tous les éléments XML doivent être des balises appariées.
 
-## YAML
+## 3 YAML
 #### Définition YAML?
- Pour certains, YAML est l'acronyme de Yet Another Markup Language, pour d'autres, c'est l'acronyme récursif de YAML Ain't Markup Language (YAML n'est pas un langage de balisage), ce qui souligne que le langage YAML s'utilise pour représenter des données plutôt que des documents.
- 
- #### Pourquoi YAML?
+ Pour certains, YAML est l'acronyme de Yet Another Markup Language, pour d'autres, c'est l'acronyme récursif de YAML Ain't Markup Language
+ #### Pourquoi utiliser YAML?
 Le langage YAML est principalement utilisé pour créer des fichiers de configuration. Il est recommandé de coder les fichiers de configuration en YAML plutôt qu'en JSON, car même si ces langages peuvent être utilisés de manière interchangeable dans la plupart des cas, YAML reste plus facile à lire et à utiliser
 
  
