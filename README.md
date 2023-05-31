@@ -89,3 +89,51 @@ Les symboles de formatage habituels, tels que les accolades, les crochets, les b
 - scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
 
 
+## Comparasion de ces trois formats de données
+#### 1) JSON
+```
+"devices": {
+    "router": [
+    {
+      "name": "CSR1000V",
+      "vendor": "Cisco",
+      "type": "virtual"
+    },
+    {
+      "name": "1921",
+      "vendor": "Cisco",
+      "type": "hardware"
+    }
+  ]
+}
+```
+#### 2) XML
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+<devices>
+  <router>
+    <name>CSR1000V</name>
+    <vendor>Cisco</vendor>
+    <type>virtueal</type>
+  </router>
+   <router>
+    <name>1921</name>
+    <vendor>Cisco</vendor>
+    <type>hardware</type>
+  </router>
+</devices>
+```
+
+#### 3) YAML
+```
+devices:
+  router:
+   - name: CSR1000V
+     vendor: Cisco
+     type: virtual
+   - name: 1921
+     vendor: Cisco
+     type: hardware
+```
+
+
