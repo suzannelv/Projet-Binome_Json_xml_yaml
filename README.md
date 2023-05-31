@@ -4,7 +4,7 @@ JSON, XLM et YAML sont des langages de sérialisation de données :
 
 - XML prend en charge les types de données complexes tels que les graphiques, les images et d'autres types de données non primitifs. 
 - JSON ne prend en charge que les chaînes de caractère (string) , les nombres, les tableaux, les booléens et les objets. 
--YAML, d'autre part, prend en charge les types de données complexes tels que les timesstamps, les séquences, les valeurs imbriquées et récursives et les types de données primitifs.
+- YAML, d'autre part, prend en charge les types de données complexes tels que les timesstamps, les séquences, les valeurs imbriquées et récursives et les types de données primitifs.
 
 
 ## 1 JSON (JavaScript Objet Notation) 
