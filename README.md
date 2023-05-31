@@ -81,13 +81,6 @@ Le langage YAML est principalement utilisé pour créer des fichiers de configur
  YAML comporte des fonctions issues de Perl, C, XML, HTML et d'autres langages de programmation. 
 Les symboles de formatage habituels, tels que les accolades, les crochets, les balises d'ouverture et de fermeture ou les guillemets, n'existent pas. Les fichiers YAML sont plus faciles à lire,  Les caractères de tabulation ne sont pas autorisés par défaut pour assurer la portabilité sur différents systèmes, alors il faut utiliser des espaces blancs à la place.
 
-- objet : une collection de paires key-value.
-
-- tableaux : un ensemble de valeurs ordonnées séquentiellement
-
-- scalars : une valeur unique et indivisible, par exemple: string, boolean, int, float, null, date, etc.
-
-
 ## Comparasion de ces trois formats de données
 #### 1) JSON
 ```
